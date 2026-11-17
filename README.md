@@ -40,6 +40,15 @@ Its interface takes inspiration from classic macOS Finder and early social netwo
 - Iterated on responsive layouts and mobile interaction details.
 - Integrated Supabase for backend data and anonymous user interactions.
 
+## Selected Code Examples
+
+The following files are selected excerpts from the original project, provided to illustrate specific implementation decisions.
+
+- [Navigation State Management](code-examples/navigationState.ts) — Typed UI state storage, retrieval, and bounded cache management.
+- [Anonymous Authentication](code-examples/anonymousAuth.ts) — Supabase session reuse, shared pending requests, and retry handling.
+
+These are reference excerpts from the original application, not standalone modules.
+
 ## Development Approach
 
 This project was developed through AI-assisted coding with hands-on product direction, interface review, iterative refinement, and functional testing.
